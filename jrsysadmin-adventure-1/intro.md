@@ -1,27 +1,16 @@
-# New Scenario Template (Your Title Here)
+# Welcome to your first adventure as a Jr. Linux SysAdmin!
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+So you think you got what it takes to start your career as a Linux SysAdmin, huh? We'll see about that! Work your way through the challenges and see how far you can progress. Use the hints, if you must, but don't cheat! Your understaffed team and close-to-retirement manager are counting on you!
 
-## Description
+## Objectives
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-## Learning Objective
-
-- 3-4 bullets
-- of what you
-- will learn
+- Fix the user issues and close out problem tickets.
+- Troubleshoot errors based on poor end user descriptions.
+- Learn about common Jr. SysAdmin tasks.
+- Have fun!
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
-
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+You should have a basic understanding of Linux. The hints will point you in the right direction if you get stuck.
 
 

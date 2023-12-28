@@ -1,33 +1,13 @@
-Text for scenario. Replace this.
+## User forgot their password
+
+After a long weekend, one of our newer developers returned and forgot their password. His name is Bob Blursky. Classic Bob move. We need to reset his password so that he can get back to... whatever it is that he does. Let's set his password to `temp123` so he can update it later. 
 
 <br>
 
 ### Solution
 <details>
 <summary>Solution</summary>
-First we check what version of Linux we're on.
 
-```plain
-cat /etc/*release
-```{{exec}}
-
-Next we check the kernel version.
-
-```plain
-uname -r
-```{{exec}}
-
-Next we might want to know how long the system has been up.
-
-```plain
-uptime
-```{{exec}}
-
-Next we might want to see how the system booted and what kernel parameters were passed when the system was started.
-
-```plain
-cat /proc/cmdline
-```{{exec}}
-
+Listen Jr, this is an easy one. Check out the details on the `passwd` command.
 
 </details>

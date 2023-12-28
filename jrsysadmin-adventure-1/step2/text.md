@@ -1,6 +1,6 @@
-## User forgot their password
+## User using too much storage
 
-After a long weekend, one of our newer developers returned and forgot their password. His name is Bob Blursky. Classic Bob move. We need to reset his password so that he can get back to... whatever it is that he does. Let's set his password to `temp123` so he can update it later. 
+Our friend Bob Blursky is at it again. He keeps getting alert emails that he's using too much storage in his home directory. He's not sure what's using so much space as he isn't really working on much... go figure... He opened a ticket to ask us for help removing any excessively large files from his home directory. His usage is supposed to be 1GB, so any files larger than 1GB should be immediately removed.
 
 <br>
 
@@ -8,6 +8,6 @@ After a long weekend, one of our newer developers returned and forgot their pass
 <details>
 <summary>Solution</summary>
 <br>
-Listen Jr, this is an easy one. Check out the `passwd` command.
+Try using the `du` command to look for large files.
 
 </details>

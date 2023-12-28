@@ -8,17 +8,17 @@
     },
     "steps": [
       {
-        "title": "Linux Commands to gather information",
+        "title": "Passwords",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Linux Commands to dig into the system",
+        "title": "Storage",
         "text": "step2/text.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "Linux Commands to see networking traffic and load",
+        "title": "Permissions",
         "text": "step3/text.md",
         "verify": "step3/verify.sh"
       }

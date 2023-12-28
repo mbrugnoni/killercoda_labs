@@ -1,7 +1,10 @@
 #/bin/bash
 
 useradd -m bblursky
-echo "xXx" 
+groupadd finance-devs
+mkdir -p /apps/finance
+chmod 775 /apps/finance
+chown root:finance-devs /apps/finance
 mkdir /home/bblursky/'Family Pictures and Videos'
 dd if=/dev/zero of=/home/bblursky/'Family Pictures and Videos'/xmas23.mkv bs=5M count=1024
 mkdir /home/bblursky/work

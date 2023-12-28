@@ -7,7 +7,7 @@ After a long weekend, one of our newer developers returned and forgot their pass
 ### Solution
 <details>
 <summary>Solution</summary>
-
-Listen Jr, this is an easy one. Check out the details on the `passwd` command.
+<br>
+Listen Jr, this is an easy one. Check out the `passwd` command.
 
 </details>

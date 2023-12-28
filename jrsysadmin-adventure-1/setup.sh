@@ -1,6 +1,7 @@
 #/bin/bash
 
-useradd -m bblursky -p forgotten
+useradd -m bblursky
+echo "xXx" 
 mkdir /home/bblursky/'Family Pictures and Videos'
 dd if=/dev/zero of=/home/bblursky/'Family Pictures and Videos'/xmas23.mkv bs=5M count=1024
 mkdir /home/bblursky/work

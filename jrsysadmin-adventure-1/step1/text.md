@@ -4,9 +4,9 @@ After a long weekend, one of our newer developers returned and forgot their pass
 
 <br>
 
-### Solution
+### Hint
 <details>
-<summary>Solution</summary>
+<summary>Hint</summary>
 <br>
 Listen Jr, this is an easy one. Check out the `passwd` command.
 

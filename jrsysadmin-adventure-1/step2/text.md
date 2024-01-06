@@ -4,9 +4,9 @@ Our friend Bob Blursky is at it again. He keeps getting alert emails that he's u
 
 <br>
 
-### Solution
+### Hint
 <details>
-<summary>Solution</summary>
+<summary>Hint</summary>
 <br>
 Try using the `du` command to look for large files.
 

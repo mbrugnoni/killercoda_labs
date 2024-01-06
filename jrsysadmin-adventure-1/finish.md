@@ -1,20 +1,15 @@
 
-On the finish page, summarize what was just learned:
+Great job! You're on your way to becoming a Jr. Linux Admin!
 
-- 3-4 bullets
-- of what you just
-- did and learned
+You were able to:
+- Update passwords
+- Change group ownership
+- Identify and remove large files filling a filesystem
 
 ## Table of Contents
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+More scenarios to come!
 
 ## Further Learning
 
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
-
-
+Join the ProLUG (Professional Linux User Group) Discord and keep up to date on new labs: https://discord.gg/hETV36MVyG

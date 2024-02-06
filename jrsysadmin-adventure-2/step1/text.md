@@ -10,6 +10,6 @@ Take a look at the server and see if there's something chewing up all our CPU. W
 <details>
 <summary>Hint</summary>
 <br>
-Listen Jr, this is an easy one. Check out the `passwd` command.
+The `top` command would be useful here. Notice something utilizing a lot of CPU?
 
 </details>

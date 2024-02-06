@@ -1,6 +1,8 @@
-## User using too much storage
+## Installing software
 
-Our friend Bob Blursky is at it again. He keeps getting alert emails that he's using too much storage in his home directory. He's not sure what's using so much space as he isn't really working on much... go figure... He opened a ticket to ask us for help removing any excessively large files from his home directory. His usage is supposed to be 1GB, so any files larger than 1GB should be immediately removed.
+Bob Blursky just pinged us on Slack. He's writing a new script and really needs `cowsay` installed on the server... what the heck... You've already told him that it shouldn't be installed on production servers but he escalated to his manager saying you were delaying his project. His manager then pinged your manager, who then pinged you, to tell you to "just install it". The security team rubberstamped his exception request he submitted for installing frivolous sotware.
+
+Install `cowsay` on the server so we can go ahead and move onto something more important. 
 
 <br>
 
@@ -8,6 +10,6 @@ Our friend Bob Blursky is at it again. He keeps getting alert emails that he's u
 <details>
 <summary>Hint</summary>
 <br>
-Try using the `du` command to look for large files.
+This distro uses `apt` for its package manager. That could be useful for installing things.
 
 </details>

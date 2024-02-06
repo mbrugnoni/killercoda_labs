@@ -1,5 +1,6 @@
 # Welcome to PART TWO of the Jr. Linux SysAdmin adventures!
 
+# UNDER CONSTRUCTION - THIS LAB IS NOT COMPLETE
 So you completed Part 1, eh? Don't get too cocky hot shot. These users have plenty more up their sleeves. Keep clearing out these trouble tickets if you think you have what it takes to be a real Sys Admin!
 
 ## Objectives

@@ -6,9 +6,9 @@ Make the necessary updates to grant him access (his username is `bblursky`) to t
 
 <br>
 
-### Solution
+### Hint
 <details>
-<summary>Solution</summary>
+<summary>Hint</summary>
 <br>
 Try looking at the group ownership for the directory. You can use the `id` command to see the details for the `bblursky` user.
 

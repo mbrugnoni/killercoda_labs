@@ -2,13 +2,15 @@
 Great job! You're on your way to becoming a Jr. Linux Admin!
 
 You were able to:
-- Update passwords
-- Change group ownership
-- Identify and remove large files filling a filesystem
+- Monitor CPU and track down processes
+- Install software
+- Disable root SSH logins
+- Generate an SSH key
 
 ## Table of Contents
 
-More scenarios to come!
+- https://killercoda.com/fishermanguybro/scenario/jrsysadmin-adventure-1
+- More scenarios to come!
 
 ## Further Learning
 

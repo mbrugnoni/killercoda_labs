@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if grep -i 'permitrootlogin yes' /etc/ssh/sshd_config; then
+if grep -i 'permitrootlogin no' /etc/ssh/sshd_config; then
     /bin/true
 else
     /bin/false

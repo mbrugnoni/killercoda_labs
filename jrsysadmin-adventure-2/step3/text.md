@@ -1,8 +1,8 @@
-## Update user access
+## Disable root SSH access
 
-Ughh.... Bob submitted another ticket. This time he can't create any files in the /apps/finance directory. He hasn't worked on a project for finance yet, so he's not sure what access he needs. The project manager told him to ask for "finance devs" access, but he's not sure what that means.
+The security team just sent over a ticket. They noticed that someone is SSH'ing into the server as `root`. This needs to be blocked immediately before it gets flagged during an audit. Easy enough. Gives us a break from dealing with Bob's shenanigans. 
 <br>
-Make the necessary updates to grant him access (his username is `bblursky`) to the `/apps/finance` directory <b>without changing the permissions on the directory itself</b>.
+Update the necessary configuration file in order to block SSH logins with the `root` user.
 
 <br>
 
@@ -10,6 +10,5 @@ Make the necessary updates to grant him access (his username is `bblursky`) to t
 <details>
 <summary>Hint</summary>
 <br>
-Try looking at the group ownership for the directory. You can use the `id` command to see the details for the `bblursky` user.
-
+If you can find where the SSH configuration file is located, this should be pretty straight forward!
 </details>

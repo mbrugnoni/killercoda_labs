@@ -1,6 +1,6 @@
 #!/bin/bash
-username="bblursky"
-if id -nG "$username" | grep -qw "finance-devs"; then
+
+if grep -i 'permitrootlogin yes' /etc/ssh/sshd_config; then
     /bin/true
 else
     /bin/false

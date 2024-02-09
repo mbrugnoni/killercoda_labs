@@ -1,14 +1,14 @@
-## Find Bob's work!
+## Generate SSH key
 
-Here we go again... Bob just pinged us on Slack. He's wondering if we saw his urgent ticket that he just submitted 2 minutes ago. No Bob, we haven't, but I guess we'll take a look... Hmm, seems that he has lost an important file called "important.doc" and has no idea where it's located. He copied it somewhere the other day but he can't remember where. He thinks he may have typo'd the path as well. 
+Just when we thought our day was over, one last ticket pops up in our queue. What a coincidence, it's from Bob Blursky. He says he needs to generate an SSH key for his user ID, but doesn't remember how. Let's just do it for him this time so we can go home for the day. 
 <br>
-Find the file for him and move, or copy it back to his home directory. Make sure to copy it directly into `/home/bblursky`.</b>.
+Generate an SSH key for Bob (his username is `bblursky`). It should be a default rsa key with an empty passphrase.</b>.
 <br>
 
 ### Hint
 <details>
 <summary>Hint</summary>
 <br>
-The 'find' command would be very helpful for this.
+You need an <b>SSH key gen</b>erator... hmm... if only there was a command like that...
 
 </details>

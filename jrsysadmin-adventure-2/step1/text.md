@@ -8,7 +8,7 @@ Take a look at the server and see if there's something chewing up all our CPU. W
 
 ### Hint
 <details>
-<summary>Hint</summary>
+<summary>Show</summary>
 <br>
 The `top` command would be useful here. Notice something utilizing a lot of CPU?
 

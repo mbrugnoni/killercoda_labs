@@ -8,7 +8,7 @@ Update the necessary configuration file in order to block SSH logins with the `r
 
 ### Hint
 <details>
-<summary>Hint</summary>
+<summary>Show</summary>
 <br>
 If you can find where the SSH configuration file is located, this should be pretty straight forward!
 </details>

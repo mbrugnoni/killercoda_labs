@@ -7,7 +7,7 @@ Generate an SSH key for Bob (his username is `bblursky`). It should be a default
 
 ### Hint
 <details>
-<summary>Hint</summary>
+<summary>Show</summary>
 <br>
 You need an <b>SSH key gen</b>erator... hmm... if only there was a command like that...
 

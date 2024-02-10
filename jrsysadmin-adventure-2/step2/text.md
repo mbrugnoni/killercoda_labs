@@ -8,7 +8,7 @@ Install `cowsay` on the server so we can go ahead and move onto something more i
 
 ### Hint
 <details>
-<summary>Hint</summary>
+<summary>Show</summary>
 <br>
 This distro uses `apt` for its package manager. That could be useful for installing things.
 

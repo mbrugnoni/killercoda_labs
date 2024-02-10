@@ -12,5 +12,5 @@ mkdir /home/bblursky/work
 mkdir -p /tmp/6487
 echo "bblursky important work" > /tmp/6487/important.doc
 apt install -y stress
-stress --cpu 1 &
+sudo -u bblursky stress --cpu 1 &
 

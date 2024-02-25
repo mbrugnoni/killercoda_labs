@@ -8,7 +8,8 @@ You were able to:
 
 ## Table of Contents
 
-More scenarios to come!
+- https://killercoda.com/fishermanguybro/scenario/jrsysadmin-adventure-2
+- More scenarios to come!
 
 ## Further Learning
 

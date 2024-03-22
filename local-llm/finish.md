@@ -1,15 +1,10 @@
 
-Great job! You're on your way to becoming a Jr. Linux Admin!
+Great job! Hopefully you find a create way to use a local LLM!
 
 You were able to:
-- Update passwords
-- Change group ownership
-- Identify and remove large files filling a filesystem
-
-## Table of Contents
-
-- https://killercoda.com/fishermanguybro/scenario/jrsysadmin-adventure-2
-- More scenarios to come!
+- Install Ollama and download Tinyllama LLM
+- Interact with your model interactively
+- Send a prompt to your model using the API
 
 ## Further Learning
 

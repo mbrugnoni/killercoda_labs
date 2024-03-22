@@ -1,6 +1,6 @@
 {
   "title": "Running a local LLM for Beginners",
-  "description": "How to easily run a local LLM",
+  "description": "How you can easily run a local LLM on minimal hardware",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,24 +8,19 @@
     },
     "steps": [
       {
-        "title": "Install software to run LLMs",
+        "title": "Installing Ollama",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Storage",
+        "title": "Run Tinyllama model using Ollama",
         "text": "step2/text.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "Permissions",
+        "title": "Interact with model through API",
         "text": "step3/text.md",
         "verify": "step3/verify.sh"
-      },
-      {
-        "title": "Files",
-        "text": "step4/text.md",
-        "verify": "step4/verify.sh"
       }
     ],
     "finish": {

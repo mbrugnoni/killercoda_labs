@@ -8,7 +8,7 @@ Use the following command, but feel free to edit the prompt:
 `curl http://localhost:11434/api/generate -d '{
   "model": "tinyllama",
   "prompt": "Why is the sky blue?"
-}'`
+}'`{{execute}}
 
 You can hit `ctrl+c` to stop the streaming response. You could also add the parameter `"streaming": false` to the API request to send the full response back only once it is complete.
 

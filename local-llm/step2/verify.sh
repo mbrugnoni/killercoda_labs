@@ -1,9 +1,5 @@
 #!/bin/bash
 
-directory_path="/home/bblursky"
-
-if [ $(du -s "$directory_path" | awk '{print $1}') -lt 1048576 ]; then
-    /bin/true
-else
-    /bin/false
-fi
+# Check if the file exists
+if [ -f "/usr/local/bin/ollama" ]; then
+  /bin/true

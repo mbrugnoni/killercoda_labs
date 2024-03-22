@@ -1,7 +1,4 @@
 #!/bin/bash
-username="bblursky"
-if id -nG "$username" | grep -qw "finance-devs"; then
-    /bin/true
-else
-    /bin/false
-fi
+# Check if the file exists
+if [ -f "/usr/local/bin/ollama" ]; then
+  /bin/true

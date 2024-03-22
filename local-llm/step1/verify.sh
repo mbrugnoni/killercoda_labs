@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Check if the file exists
-if [ -f "$filepath" ]; then
+if [ -f "/usr/local/bin/ollama" ]; then
   /bin/true

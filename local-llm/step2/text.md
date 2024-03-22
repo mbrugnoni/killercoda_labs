@@ -1,13 +1,12 @@
-## User using too much storage
+## Run Tinyllama model using Ollama
 
-Our friend Bob Blursky is at it again. He keeps getting alert emails that he's using too much storage in his home directory. He's not sure what's using so much space as he isn't really working on much... go figure... He opened a ticket to ask us for help removing any excessively large files from his home directory. His usage is supposed to be 1GB, so any files larger than 1GB should be immediately removed.
-
+In this lab, we're going to use the Tinyllama model. Ollama supports many open source models, but most of them have higher hardware requirements than we have available to us. Some models run well on CPU, while others require GPU's to get adequate performance. The larger models also require more memory. We're going to see how we can use a smaller model, like Tinyllama, to get decent performance on our 1 CPU / 1GB Memory lab system. 
 <br>
 
-### Hint
-<details>
-<summary>Hint</summary>
+We're going to download our model and start an interactive chat using one command:
 <br>
-Try using the `du` command to look for large files.
+`ollama run tinyllama`{{execute}}
 
-</details>
+This command will first check to see if we already have the model downloaded, and if not, it will download it before opening a chat.
+
+Ask the model some questions and see how it performs! Keep in mind that this is a small model trained with less parameters, so the responses for some topics may be limited. Still pretty cool what we can accomplish with such little resources!

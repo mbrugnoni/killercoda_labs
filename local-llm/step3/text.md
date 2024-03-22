@@ -1,15 +1,15 @@
-## Update user access
+## Interact with model through API
 
-Ughh.... Bob submitted another ticket. This time he can't create any files in the /apps/finance directory. He hasn't worked on a project for finance yet, so he's not sure what access he needs. The project manager told him to ask for "finance devs" access, but he's not sure what that means.
-<br>
-Make the necessary updates to grant him access (his username is `bblursky`) to the `/apps/finance` directory <b>without changing the permissions on the directory itself</b>.
+One benefit of running a local LLM is that you don't have to pay for API access! Let's see how easy it is to interact with our model through the API.
 
-<br>
+Instead of writing something like a python script, we'll use the `curl` command to easily send our prompt to the model's API.
 
-### Hint
-<details>
-<summary>Hint</summary>
-<br>
-Try looking at the group ownership for the directory. You can use the `id` command to see the details for the `bblursky` user.
+Use the following command, but feel free to edit the prompt:
+`curl http://localhost:11434/api/generate -d '{
+  "model": "tinyllama",
+  "prompt": "Why is the sky blue?"
+}'`
 
-</details>
+You can hit `ctrl+c` to stop the streaming response. You could also add the parameter `"streaming": false` to the API request to send the full response back only once it is complete.
+
+This shows how easily a local LLM could be leveraged by a bash script or python application. 

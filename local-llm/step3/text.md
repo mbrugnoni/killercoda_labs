@@ -10,6 +10,6 @@ Use the following command, but feel free to edit the prompt:
   "prompt": "Why is the sky blue?"
 }'`{{execute}}
 
-You can hit `ctrl+c` to stop the streaming response. You could also add the parameter `"streaming": false` to the API request to send the full response back only once it is complete.
+You can hit `ctrl+c` to stop the streaming response. You could also add the parameter `"stream": false` to the API request to send the full response back only once it is complete.
 
 This shows how easily a local LLM could be leveraged by a bash script or python application. 

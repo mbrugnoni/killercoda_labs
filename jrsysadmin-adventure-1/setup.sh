@@ -11,4 +11,5 @@ mkdir /home/bblursky/work
 (echo "st@rting252"; echo "summer2023"; echo "winter2022"; echo "Sally04122015"; echo 'h@t3myB0$$') > /home/bblursky/passwords.txt
 mkdir -p /tmp/6487
 echo "bblursky important work" > /tmp/6487/important.doc
+chown bblursky:bblursky /tmp/6487/important.doc
 

@@ -1,4 +1,4 @@
-## Sudo make me a sandwich
+## Adjusting sudo access
 
 We just got another ticket in from the application administrator. They forgot to ask for sudo access to install their app. No worries, easy enough for us to add! The vendor documentation says that it only requires sudo access for the install script, and can be removed afterward.
 
